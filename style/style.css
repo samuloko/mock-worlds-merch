@@ -1,0 +1,166 @@
+
+/* body {
+    background-image:url( "../img/Sem título.png");
+    background-repeat: no-repeat;
+} */
+
+nav {
+    height: 6em;
+    padding: 2em;
+    font-size: 1.6em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000000;
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+footer {
+  background-color: #181414;
+}
+
+#produtos, #sobre, #fale {
+    min-height: 100vm;
+    padding: 4em;
+}
+
+
+.azul {
+        font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+}
+
+
+#produtos {
+    background-color: white;
+}
+
+#sobre {
+    background-color: #1EA6C8;
+}
+
+#fale {
+    background-color: #15768F;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: #085064;
+}
+
+#produtos .card {
+    background-color: #1EC97A;
+}
+
+#pedido{
+  padding-top: 11em;
+  padding-bottom: 2em;
+}
+.card-j{
+    border-radius: 4px;
+    background-color: #1EC97A;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card-j:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-j h3{
+  font-weight: 600;
+}
+
+.card-j img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url("../img/preview.png");
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    background-color: #1EC97A;
+
+}
+
+.card-2{
+   background-image: url("../img/preview2.png");
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card-j{
+    margin: 20px;
+    background-color: #1EC9B5;
+  }
+} 
+
+
+.cor {
+    background-color: #1EC9B5;
+}
+
+p.halal { 
+  color: #807c7c; 
+  margin: 11px;
+  padding: 11px;
+  border: 11px;
+  margin-bottom: 0px;
+}
+
+
+
+p.haraam {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  color: #085064;
+}
+
+.preto { 
+  -webkit-filter: grayscale(100%); 
+}
+
+.pretom {
+  -webkit-filter: invert(100%);
+  -webkit-filter: grayscale(100%); 
+}
+
+.preto, .pretom {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 22px;
+
+}
+
+.jogar {
+  text-align: center;
+}
+
+.sofrencia:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
